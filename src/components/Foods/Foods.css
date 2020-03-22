@@ -17,17 +17,18 @@
 .singl-food-item img {
   width: 60%;
 }
-.singl-food-item a {
+.singl-food-item h3 a {
   color: rgb(44, 44, 44);
   font-size: 20px;
   text-transform: capitalize;
   margin-top: 30px;
   font-weight: 600;
   display: block;
-  text-decoration: none;
   transition: 0.5s;
+  cursor: pointer;
+  text-decoration: none;
 }
-.singl-food-item:hover a {
+.singl-food-item:hover h3 a {
   color: #f91944;
   text-decoration: none;
 }

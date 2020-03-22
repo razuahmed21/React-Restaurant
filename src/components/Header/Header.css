@@ -1,46 +1,6 @@
 .main-body {
   font-family: "Open Sans", sans-serif;
 }
-.main-header {
-  background-color: #fff;
-  padding: 15px 0;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 2;
-  border-bottom: 1px solid #f3f3f3;
-}
-.logo-area img {
-  width: 100%;
-}
-.main-menu ul {
-  margin: 0;
-  padding: 0;
-  text-align: right;
-}
-.main-menu ul li {
-  display: inline-block;
-  list-style: none;
-}
-.main-menu ul li.subscribe-btn a {
-  background-color: #f91944;
-  color: #fff;
-  padding: 7px 20px;
-  border-radius: 35px;
-  margin-left: 20px;
-  font-size: 15px;
-}
-.main-menu ul li a {
-  padding: 13px 15px;
-  text-transform: capitalize;
-  font-size: 16px;
-  font-weight: 600px;
-  display: inline-block;
-  color: #212121;
-  text-decoration: none;
-}
 .hero-banner {
   background-position: center;
   width: 100%;
@@ -48,7 +8,6 @@
   position: relative;
   object-fit: cover;
   z-index: 1;
-  margin-top: 75px;
 }
 .beef {
   position: absolute;
@@ -141,5 +100,32 @@
   }
   .hero-banner {
     height: 400px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .serach-form {
+    width: 380px;
+  }
+  .banner-text h1 {
+    font-size: 40px;
+  }
+  .hero-banner {
+    height: 400px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .beef {
+    left: 7%;
+    top: 0px;
+  }
+  .beef img {
+    width: 150px;
+  }
+  .roll {
+    right: 15%;
+    bottom: 0px;
+  }
+  .roll img {
+    width: 90px;
   }
 }

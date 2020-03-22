@@ -9,21 +9,21 @@ const Footer = () => {
     <div className="footer-area">
       <Container>
         <Row>
-          <Col lg="4">
+          <Col md="12" lg="4">
             <div className="single-footer-widget">
               <div className="footer-logo">
                 <img src={logo2} alt="" />
               </div>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit
-                ipsa, temporibus harum soluta  eligendi illum natus
-                vel dolorem odit corrupti ea nulla.
+                ipsa, temporibus harum soluta eligendi illum natus vel dolorem
+                odit corrupti ea nulla.
               </p>
             </div>
           </Col>
-          <Col lg="8">
+          <Col md="12" lg="8">
             <Row>
-              <Col lg="4">
+              <Col sm="6" md="4" lg="4">
                 <div className="single-footer-widget">
                   <ul>
                     <li>
@@ -44,7 +44,7 @@ const Footer = () => {
                   </ul>
                 </div>
               </Col>
-              <Col lg="4">
+              <Col sm="6" md="4" lg="4">
                 <div className="single-footer-widget">
                   <ul>
                     <li>
@@ -65,10 +65,10 @@ const Footer = () => {
                   </ul>
                 </div>
               </Col>
-              <Col lg="4">
+              <Col sm="6" md="4" lg="4">
                 <div className="single-footer-widget">
                   <ul>
-                  <li>
+                    <li>
                       <a href="#">about online food</a>
                     </li>
                     <li>
@@ -91,7 +91,7 @@ const Footer = () => {
         </Row>
         <div className="lower-footer">
           <Row>
-            <Col lg="4" md="4">
+            <Col lg="4" md="6">
               <div className="lower-footer-widget">
                 <ul>
                   <li>
@@ -106,12 +106,12 @@ const Footer = () => {
                 </ul>
               </div>
             </Col>
-            <Col lg="4" md="4">
+            <Col lg="4" md="6">
               <div className="copyright">
                 <p>Copyright @2020 Red Onion Foods</p>
               </div>
             </Col>
-            <Col lg="4" md="4">
+            <Col lg="4" md="12">
               <div className="lower-footer-widget">
                 <div className="payment-img">
                   <img src={payment} alt="" />

@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import foodsList from "../../foodData/foods";
 import "../Foods/Foods.css";
-import wrapBg from "../../images/wrapper-bg.png"
+import wrapBg from "../../images/wrapper-bg.png";
 import { Row, Container, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 const Foods = () => {
   const [foods, setFoods] = useState(foodsList);
   const [selectedFoodCat, setSelectedFoodCat] = useState("breakfast");
@@ -22,10 +23,12 @@ const Foods = () => {
       <Container>
         <Row>
           {selectedFoods.map(food => (
-            <Col md="4">
+            <Col sm="6" md="6" lg="4">
               <div className="singl-food-item">
                 <img src={food.img} alt="" />
-                <a href="">{food.name}</a>
+                <h3>
+                  <Link to={"/" + food.name}>{food.name}</Link>
+                </h3>
                 <p>{food.short}</p>
                 <span>${food.price}</span>
               </div>

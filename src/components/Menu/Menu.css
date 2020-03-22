@@ -1,0 +1,41 @@
+.main-header {
+  background-color: #fff;
+  padding: 15px 0;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  display: block;
+  width: 100%;
+  z-index: 2;
+  border-bottom: 1px solid #f3f3f3;
+  font-family: "Open Sans", sans-serif;
+}
+.logo-area img {
+  width: 100%;
+}
+.main-menu ul {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+.main-menu ul li {
+  display: inline-block;
+  list-style: none;
+}
+.main-menu ul li.subscribe-btn a {
+  background-color: #f91944;
+  color: #fff;
+  padding: 7px 20px;
+  border-radius: 35px;
+  margin-left: 20px;
+  font-size: 15px;
+}
+.main-menu ul li a {
+  padding: 13px 15px;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 600px;
+  display: inline-block;
+  color: #212121;
+  text-decoration: none;
+}

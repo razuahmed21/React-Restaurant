@@ -1,0 +1,46 @@
+.wrapp {
+	font-family: "Open Sans", sans-serif;
+	background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    padding-bottom: 80px;
+}
+.singl-food-item {
+  text-align: center;
+  padding: 30px;
+  background-color: #fff;
+  border: 1px solid #f5f5f5;
+  margin-top: 30px;
+  height: 400px;
+  transition: 0.5s;
+}
+.singl-food-item img {
+  width: 60%;
+}
+.singl-food-item a {
+  color: rgb(44, 44, 44);
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-top: 30px;
+  font-weight: 600;
+  display: block;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.singl-food-item:hover a {
+  color: #f91944;
+  text-decoration: none;
+}
+.singl-food-item:hover {
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.051);
+  border: 1px solid transparent;
+}
+.singl-food-item p {
+  color: rgb(153, 153, 153);
+  font-size: 15px;
+}
+.singl-food-item span {
+  color: rgb(80, 80, 80);
+  font-size: 22px;
+  font-weight: 600;
+}

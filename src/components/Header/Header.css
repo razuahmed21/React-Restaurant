@@ -40,7 +40,51 @@
   height: 570px;
   position: relative;
   object-fit: cover;
+  z-index: 1;
 }
+.beef {
+  position: absolute;
+  left: 15%;
+  top: 100px;
+  -webkit-animation: tp 3s linear infinite;
+  animation: tp 3s linear infinite;
+  z-index: -1;
+}
+.roll {
+  position: absolute;
+  right: 20%;
+  bottom: 100px;
+  -webkit-animation: bp 3s linear infinite;
+  animation: bp 3s linear infinite;
+  z-index: -1;
+}
+@keyframes tp {
+  from {
+    transform: translate(0, 0px);
+  }
+
+  65% {
+    transform: translate(0, 40px);
+  }
+
+  to {
+    transform: translate(0, -0px);
+  }
+}
+@keyframes bp {
+  from {
+    transform: translate(0, 0px);
+  }
+
+  65% {
+    transform: translate(50px, 0px);
+  }
+
+  to {
+    transform: translate(0, -0px);
+  }
+}
+
 .banner-text {
   position: absolute;
   left: 50%;
@@ -81,7 +125,7 @@
 }
 .tab-menu ul {
   text-align: center;
-  padding: 50px 0;
+  padding: 60px 0 20px 0;
 }
 .tab-menu ul li {
   display: inline-block;
@@ -89,7 +133,8 @@
   padding: 0 15px;
   text-transform: capitalize;
   font-weight: 500;
-  font-size: 19px;
+  font-size: 20px;
+  cursor: pointer;
 }
 @media only screen and (max-width: 767px) {
   .serach-form {

@@ -1,5 +1,7 @@
 import React from "react";
 import logo from "../../images/logo2.png";
+import beef from "../../images/beef.png";
+import roll from "../../images/roll.png";
 import banner from "../../images/bannerbackground.png";
 import "./Header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -48,14 +50,14 @@ const Header = () => {
           <button>search</button>
           </div>
         </div>
+        <div className="beef">
+            <img src={beef} alt=""/>
+          </div>
+          <div className="roll">
+            <img src={roll} alt=""/>
+          </div>
       </div>
-      <div className="tab-menu">
-        <ul>
-          <li>breakfast</li>
-          <li>lunch</li>
-          <li>dinner</li>
-        </ul>
-      </div>
+      
     </div>
   );
 };

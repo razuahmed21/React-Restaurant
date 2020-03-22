@@ -1,0 +1,75 @@
+.footer-area {
+  font-family: "Open Sans", sans-serif;
+  padding: 65px 0;
+  background-color: #1b100e;
+}
+.footer-logo img {
+  width: 170px;
+  margin-bottom: 20px;
+}
+.single-footer-widget p {
+	color: #dcdcdc;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 23px;
+}
+.single-footer-widget ul {
+  margin: 0;
+  padding: 0;
+}
+.single-footer-widget ul li {
+  display: block;
+  list-style: none;
+}
+.single-footer-widget ul li a {
+  display: block;
+  color: #d5d5d5;
+  font-size: 14px;
+  line-height: 30px;
+  text-transform: capitalize;
+  transition: 0.5s;
+}
+.single-footer-widget ul li a:hover {
+  color: #f91944;
+  text-decoration: none;
+}
+.lower-footer {
+  margin-top: 30px;
+  border-top: 1px solid #361919;
+  padding-top: 30px;
+}
+.lower-footer-widget ul {
+  margin: 0;
+  padding: 0;
+}
+.lower-footer-widget ul li {
+  display: inline-block;
+  list-style: none;
+}
+.lower-footer-widget ul li a {
+  display: inline-block;
+  color: #d5d5d5;
+  font-size: 13px;
+  padding: 0 18px;
+  text-transform: capitalize;
+  transition: 0.5s;
+}
+.lower-footer-widget ul li a:first-child {
+  padding-left: 0;
+}
+.lower-footer-widget ul li a:hover {
+  color: #f91944;
+  text-decoration: none;
+}
+.payment-img {
+  text-align: right;
+}
+.payment-img img {
+  width: 180px;
+}
+.copyright p {
+  color: rgb(216, 216, 216);
+  font-size: 13px;
+  text-align: center;
+  margin: 0;
+}

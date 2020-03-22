@@ -1,0 +1,77 @@
+.choose-wrap {
+  font-family: "Open Sans", sans-serif;
+  padding-bottom: 100px;
+}
+.single-choose {
+  border: 1px solid #efefef;
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+  background-color: #fff;
+}
+.choose-img {
+  height: 280px;
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+  position: relative;
+}
+.choose-img:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -100%;
+  height: 100%;
+  width: 100%;
+  background-color: #e916391c;
+  opacity: 0;visibility: hidden;transition: .7s;
+}
+.single-choose:hover .choose-img:before{opacity: 1;visibility: visible;bottom: 0;}
+.choose-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+.choose-content {
+  padding: 30px 20px;
+}
+.choose-content span {
+  background-color: #f91944;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #fff;
+  line-height: 40px;
+  text-align: center;
+  display: inline-block;
+  font-size: 19px;
+  margin-right: 5px;
+}
+.choose-content h4 {
+  font-size: 20px;
+  text-transform: capitalize;
+  color: rgb(44, 44, 44);
+  font-weight: 600;
+}
+.choose-content a {
+  color: #597ef7;
+  text-decoration: none;
+  font-weight: 600;
+}
+.choose-content p {
+  color: rgb(153, 153, 153);
+  font-size: 15px;
+}
+.choose-content a:hover {
+  text-decoration: none;
+}
+.choose-content a span {
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+  line-height: 22px;
+  text-align: center;
+  display: inline-block;
+  background-color: #19e270;
+  font-size: 12px;
+  margin-left: 5px;
+}

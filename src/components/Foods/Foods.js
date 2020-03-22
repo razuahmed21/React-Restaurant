@@ -9,9 +9,6 @@ const Foods = () => {
 
   const selectedFoods = foods.filter(food => food.category === selectedFoodCat);
 
-  console.log(selectedFoodCat);
-  console.log(selectedFoods);
-
   return (
     <div className="wrapp" style={{ backgroundImage: `url(${wrapBg})` }}>
       <div className="tab-menu">

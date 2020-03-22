@@ -5,6 +5,12 @@
   background-color: #fff;
   padding: 15px 0;
   width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  border-bottom: 1px solid #f3f3f3;
 }
 .logo-area img {
   width: 100%;
@@ -21,9 +27,10 @@
 .main-menu ul li.subscribe-btn a {
   background-color: #f91944;
   color: #fff;
-  padding: 8px 30px;
+  padding: 7px 20px;
   border-radius: 35px;
   margin-left: 20px;
+  font-size: 15px;
 }
 .main-menu ul li a {
   padding: 13px 15px;
@@ -41,6 +48,7 @@
   position: relative;
   object-fit: cover;
   z-index: 1;
+  margin-top: 75px;
 }
 .beef {
   position: absolute;
@@ -94,9 +102,9 @@
   text-align: center;
 }
 .banner-text h1 {
-  color: #212121;
-  font-size: 50px;
-  font-weight: 500;
+  color: #494949;
+  font-size: 45px;
+  font-weight: 600;
   margin: 0;
 }
 .serach-form {
@@ -109,7 +117,7 @@
   border: none;
   background-color: #fff;
   border-radius: 30px;
-  padding: 15px 30px;
+  padding: 14px 30px;
   width: 100%;
 }
 .serach-form button {
@@ -119,23 +127,11 @@
   border: none;
   background-color: #f91944;
   color: #fff;
-  padding: 15px 45px;
+  padding: 14px 40px;
   border-radius: 30px;
   text-transform: capitalize;
 }
-.tab-menu ul {
-  text-align: center;
-  padding: 60px 0 20px 0;
-}
-.tab-menu ul li {
-  display: inline-block;
-  list-style: none;
-  padding: 0 15px;
-  text-transform: capitalize;
-  font-weight: 500;
-  font-size: 20px;
-  cursor: pointer;
-}
+
 @media only screen and (max-width: 767px) {
   .serach-form {
     width: 380px;
